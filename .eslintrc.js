@@ -21,6 +21,8 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
+    // 禁止空格和 tab 的混合缩进
+    'no-mixed-spaces-and-tabs'：0，
     // allow async-await
     'generator-star-spacing': 'off',
     // allow debugger during development
